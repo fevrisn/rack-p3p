@@ -1,7 +1,7 @@
 # Shamelessly ripped from http://www.mail-archive.com/rubyonrails-core@googlegroups.com/msg09777.html
 module Rack
   class P3p
-    POLICY = 'CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"'
+    POLICY = 'CP="This site does not have a P3P policy. Learn why here: http://fb.me/p3p"'
 
     def initialize(app)
       @app = app
